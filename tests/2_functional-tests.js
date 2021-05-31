@@ -79,6 +79,7 @@ suite("Functional Tests", function () {
 
 const Browser = require("zombie");
 
+// TODO: Not working as expected, Giving an error using the Zombie.js Browser
 suite("Functional Tests with Zombie.js", function () {
   const browser = new Browser();
   suiteSetup(function(done) {
